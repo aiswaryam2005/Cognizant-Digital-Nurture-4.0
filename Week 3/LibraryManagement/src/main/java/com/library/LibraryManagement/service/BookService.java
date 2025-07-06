@@ -1,0 +1,18 @@
+package com.library.LibraryManagement.service;
+
+import com.library.LibraryManagement.repository.BookRepository;
+
+
+public class BookService {
+
+    private BookRepository bookRepository;
+
+    // Setter for Dependency Injection
+    public void setBookRepository(BookRepository bookRepository) {
+        this.bookRepository = bookRepository;
+    }
+
+    public void displayBookInfo() {
+        System.out.println(bookRepository.getBookDetails());
+    }
+}
