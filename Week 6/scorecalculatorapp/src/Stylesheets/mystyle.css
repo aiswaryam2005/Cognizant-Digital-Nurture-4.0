@@ -1,0 +1,41 @@
+.formatstyle {
+  margin: 50px auto;
+  padding: 20px;
+  width: fit-content;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fefefe;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: brown;
+  margin-bottom: 30px;
+}
+
+.Name,
+.School,
+.Total,
+.Score {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.Name span:last-child {
+  color: blue;
+}
+
+.School span:last-child {
+  color: crimson;
+}
+
+.Total span:last-child {
+  color: purple;
+}
+
+.Score span:last-child {
+  color: green;
+}
